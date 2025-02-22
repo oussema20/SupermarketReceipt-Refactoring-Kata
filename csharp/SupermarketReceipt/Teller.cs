@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using SupermarketReceipt.Entities;
+using SupermarketReceipt.Enums;
 
 namespace SupermarketReceipt
 {

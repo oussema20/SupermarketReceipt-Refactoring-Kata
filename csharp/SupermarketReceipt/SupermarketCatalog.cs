@@ -1,3 +1,5 @@
+using SupermarketReceipt.Entities;
+
 namespace SupermarketReceipt
 {
     public interface SupermarketCatalog

@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using SupermarketReceipt.Entities;
+using SupermarketReceipt.Enums;
 using Xunit;
 
 namespace SupermarketReceipt.Test

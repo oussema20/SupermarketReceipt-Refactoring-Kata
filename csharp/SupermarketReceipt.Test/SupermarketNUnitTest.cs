@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using NUnit;
 using NUnit.Framework;
+using SupermarketReceipt.Entities;
+using SupermarketReceipt.Enums;
 
 namespace SupermarketReceipt.Test
 {

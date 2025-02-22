@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System.Globalization;
+using SupermarketReceipt.Entities;
+using SupermarketReceipt.Enums;
 
 namespace SupermarketReceipt
 {

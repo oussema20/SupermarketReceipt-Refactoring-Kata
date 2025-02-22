@@ -1,0 +1,10 @@
+﻿namespace SupermarketReceipt.Enums
+{
+    public enum SpecialOfferType
+    {
+        ThreeForTwo,
+        TenPercentDiscount,
+        TwoForAmount,
+        FiveForAmount
+    }
+}

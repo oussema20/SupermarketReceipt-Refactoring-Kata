@@ -1,13 +1,7 @@
-namespace SupermarketReceipt
-{
-    public enum SpecialOfferType
-    {
-        ThreeForTwo,
-        TenPercentDiscount,
-        TwoForAmount,
-        FiveForAmount
-    }
+using SupermarketReceipt.Enums;
 
+namespace SupermarketReceipt.Entities
+{
     public class Offer
     {
         private Product _product;
