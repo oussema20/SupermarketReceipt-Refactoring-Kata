@@ -3,6 +3,7 @@ using NUnit;
 using NUnit.Framework;
 using SupermarketReceipt.Entities;
 using SupermarketReceipt.Enums;
+using SupermarketReceipt.Interfaces;
 
 namespace SupermarketReceipt.Test
 {
@@ -12,7 +13,7 @@ namespace SupermarketReceipt.Test
         public void TenPercentDiscount()
         {
             // ARRANGE
-            SupermarketCatalog catalog = new FakeCatalog();
+            ISupermarketCatalog catalog = new FakeCatalog();
             var toothbrush = new Product("toothbrush", ProductUnit.Each);
             catalog.AddProduct(toothbrush, 0.99);
             var apples = new Product("apples", ProductUnit.Kilo);

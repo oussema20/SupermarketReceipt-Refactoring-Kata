@@ -1,8 +1,8 @@
 using SupermarketReceipt.Entities;
 
-namespace SupermarketReceipt
+namespace SupermarketReceipt.Interfaces
 {
-    public interface SupermarketCatalog
+    public interface ISupermarketCatalog
     {
         void AddProduct(Product product, double price);
 
